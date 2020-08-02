@@ -4,7 +4,6 @@ import Search from './components/artist/Search';
 import Tracks from './components/artist/Tracks';
 import RelatedArtists from './components/related-artists/RelatedArtists';
 import Footer from './components/layout/Footer';
-import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 import './App.css';
 
@@ -75,20 +74,13 @@ const App = () => {
   return (
     <div className="wrapper">
       <Header />
-
-      <ScrollAnimation
-        animateIn="animate__animated animate__fadeIn"
-        duration={2}
-        animateOnce={true}
-      >
-        <Search searchArtist={searchArtist} />
-        {!artistId && (
-          <h3 className="container">
-            Please enter the artist's name to view the top tracks and related
-            artists.
-          </h3>
-        )}
-      </ScrollAnimation>
+      <Search searchArtist={searchArtist} />
+      {!artistId && (
+        <h3 className="container">
+          Please enter the artist's name to view the top tracks and related
+          artists.
+        </h3>
+      )}
 
       {artistId !== '' && relatedArtists.length !== 0 ? (
         <div className="grid">

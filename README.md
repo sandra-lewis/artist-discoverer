@@ -1,14 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `Live Demo: [https://artistdiscoverer.netlify.app](https://artistdiscoverer.netlify.app)`
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [About](#about)
+- [Technologies](#technologies)
+- [Setup](#setup)
 
-### `npm start`
+## About
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project discovers an artist's top tracks and related artists on Spotify.
 
-### `npm run build`
+## Technologies
 
-Builds the app for production to the `build` folder.<br />
+Project is created with:
+
+- React v16.13.1
+- React Animate On Scroll v2.1.5
+- Animate.css v4.1.0
+
+## Setup
+
+To run this project, install it locally using npm:
+
+```
+$ cd artist-discoverer
+$ npm install
+$ npm start
+```
