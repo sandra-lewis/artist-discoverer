@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import Header from './components/layout/Header';
 import Search from './components/artist/Search';
 import Tracks from './components/artist/Tracks';
@@ -91,7 +91,7 @@ const App = () => {
         <Fragment>{artistId && <Tracks artistId={artistId} />}</Fragment>
       )}
 
-      <div className="pt-4">
+      <div className="pt-6">
         <Footer />
       </div>
     </div>
