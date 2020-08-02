@@ -1,4 +1,4 @@
-### `Live Demo: [https://artistdiscoverer.netlify.app](https://artistdiscoverer.netlify.app)`
+#### Live Demo: [https://artistdiscoverer.netlify.app](https://artistdiscoverer.netlify.app)
 
 ## Table of contents
 
