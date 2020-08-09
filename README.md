@@ -1,18 +1,10 @@
 #### Live Demo: [https://artistdiscoverer.netlify.app](https://artistdiscoverer.netlify.app)
 
-## Table of contents
-
-- [About](#about)
-- [Technologies](#technologies)
-- [Setup](#setup)
-
 ## About
 
 This project discovers an artist's top tracks and related artists on Spotify.
 
-## Technologies
-
-Project is created with:
+## Technologies Used
 
 - React v16.13.1
 - React Animate On Scroll v2.1.5
