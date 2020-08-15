@@ -1,5 +1,3 @@
-#### Live Demo: [https://artistdiscoverer.netlify.app](https://artistdiscoverer.netlify.app)
-
 ## About
 
 This project discovers an artist's top tracks and related artists on Spotify.
